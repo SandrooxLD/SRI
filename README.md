@@ -18,7 +18,7 @@ _Este texto está en italica_
 
 
 | Titulo 1 | Titulo 2 |
-|------:|-----------|
+|---------------------|----------------------|
 | Contenido celda 1   | Contenido celda 2 |
 | Contenido columna 1 |  Contenido columna 2 |
 
