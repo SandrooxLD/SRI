@@ -17,10 +17,11 @@ echo Hola
 _Este texto está en italica_
 
 
-
-
-
-
+| Titulo 1 | Titulo 2  |
+|------:|-----------|
+| Contenido| JavaScript|
+|     2    | Python    |
+|     3    | SQL       |
 
 
 
