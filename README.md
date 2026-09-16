@@ -19,9 +19,8 @@ _Este texto está en italica_
 
 | Titulo 1 | Titulo 2 |
 |------:|-----------|
-| Contenido| JavaScript|
-|     2    | Python    |
-|     3    | SQL       |
+| Contenido celda 1   | Contenido celda 2 |
+| Contenido columna 1 |  Contenido columna 2 |
 
 
 
