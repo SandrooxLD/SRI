@@ -1,5 +1,5 @@
 # SRI
-!
+![jojo](joseph-joseph-joestar.gif)
 Hola
 (/tema0/fich1)
 
