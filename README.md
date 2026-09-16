@@ -12,7 +12,7 @@ echo Hola
 ###### Esto es un titulo 6
 
 
-*Este texto está en negrita*
+**Este texto está en negrita**
 _Este texto está en italica_
 
 
