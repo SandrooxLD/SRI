@@ -2,7 +2,7 @@
 ![jojo](joseph-joseph-joestar.gif)
 
 Hola
-[fichero1](/tema0/fich1)
+[fichero1](/Tema0_Intro/fich1)
 
 ```
 echo Hola
@@ -21,7 +21,7 @@ _Este texto está en italica_
 
 | Titulo 1 | Titulo 2 |
 |---------------------|----------------------|
-| [fichero1](/tema0/fich1)   | Contenido celda 2 |
+| [fichero1](/Tema0_Intro/fich1)   | Contenido celda 2 |
 | Contenido columna 1 |  Contenido columna 2 |
 
 
