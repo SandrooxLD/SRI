@@ -22,9 +22,9 @@ _Este texto está en italica_
 | Ejercicio | Descripción |
 |---------------------|----------------------|
 | [fichero1](/Tema0_Intro/fich1) |  HTTP Introduction |
-| [fichero2](/Tema0_Intro/fich2) |  Contenido columna 2 |
-| [fichero3](/Tema0_Intro/fich3) |  Contenido columna 3 |
-| Contenido columna 1 |  Contenido columna 2 |
-| Contenido columna 2 |  Contenido columna 3 |
+| [fichero2](/Tema0_Intro/fich2) |  UDP and TCP Comparison |
+| [fichero3](/Tema0_Intro/fich3) | Practica telnet |
+| Contenido columna 1 | Usando cURL |
+| Contenido columna 2 |  Practica servidor web |
 
 
