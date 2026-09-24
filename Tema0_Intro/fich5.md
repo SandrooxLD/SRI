@@ -34,6 +34,13 @@ Por ultimo abrimos el navegador y en la barra de direcciones ponemos: "localhost
 (en la foto aparece que antes se llamaba ejercicio5 pero lo cambié a index.html para que se me abriera automaticamente ese)
 
 
-Ejemplo 2:
+
+Ejemplo 2: 
+
+Nos vamos al enlace que está en el enunciado, nos lleva a un github, lo descargamos en zip, luego lo descomprimimos y lo pasamos a la carpeta de usuario
+y nos vamos al directorio, y pasamos el index y la imagen al directorio usando copy en el cmd
+
+<img width="1357" height="624" alt="image" src="https://github.com/user-attachments/assets/435f78db-5212-4841-ad6e-3b2dd47a9474" />
+
 
 
