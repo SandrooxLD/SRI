@@ -28,6 +28,7 @@ Ejemplo 4: Para ver solo los encabezados HTTP de una página web
 
 
 Ejemplo 5: Puedes ver tu dirección IP pública actual
+
 <img width="388" height="56" alt="image" src="https://github.com/user-attachments/assets/1a52f2e3-a5e5-4c75-aeb0-2fb720f9ca5a" />
 
 
