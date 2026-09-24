@@ -24,7 +24,7 @@ _Este texto está en italica_
 | [fichero1](/Tema0_Intro/fich1) |  HTTP Introduction |
 | [fichero2](/Tema0_Intro/fich2) |  UDP and TCP Comparison |
 | [fichero3](/Tema0_Intro/fich3) | Practica telnet |
-| Contenido columna 1 | Usando cURL |
-| Contenido columna 2 |  Practica servidor web |
+| [fichero4](/Tema0_Intro/fich4) | Usando cURL |
+| [fichero5](/Tema0_Intro/fich5) |  Practica servidor web |
 
 
