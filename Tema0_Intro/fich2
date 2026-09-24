@@ -1,1 +1,36 @@
+Act 1:
+Diferencias entre udp y tcp? (min 2:46 y 4:15)
+Una de las primeras diferencias es que UDP tiene una detección de errores basada en una verificación de 16 bits, aunque es poco confiable, ya que si detecta un segmento corrupto posiblemente lo descarte y lo que se pierde, pues se pierde y no le llega al usuario.
+En UDP no hay control de congestión incluso si la red está saturada.
+UDP es mucho más ligero pero TCP es mucho más confiable que UDP.
+
+Act 2:
+¿Qué aplicaciones usan tcp?
+Las aplicaciones que usan tcp son: 
+    • HTTP
+    • SMTP
+    • POP
+    • IMAP
+    • SSH
+
+Act 3:
+¿Qué aplicaciones usan udp?
+Las aplicaciones que usan udp son: 
+    • VoIP
+    • Streaming de vídeo y audio en vivo
+    • DNS (aunque también puede usar TCP)
+    • DHCP
+    • NTP
+
+Act 4:
+¿Qué capa almacena el puerto?
+La capa 4 del modelo OSI, la capa de transporte
+
+Act 5:
+¿Qué capa almacena la dirección IP?
+La capa 3 del modelo OSI, la capa de  red.
+
+Act 6:
+¿Qué es three-way handshake?
+El three way handshake es el proceso que permite establecer una conexión confiable entre dos dispositivos antes de iniciar el intercambio de datos en una red TCP.
 
