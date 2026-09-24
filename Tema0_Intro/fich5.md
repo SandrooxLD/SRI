@@ -12,7 +12,7 @@ Instala Python.
 Ejecuta los ejemplos mostrados con anterioridad.
 Publica en GitHub los ejemplos llevados a cabo. Los ejemplos se acompañaran con capturas de pantalla en las que se muestre su funcionamiento.
 
-
+Ejemplo 1:
 
 Primero ponemos en marcha el servidor
 
@@ -32,4 +32,8 @@ Por ultimo abrimos el navegador y en la barra de direcciones ponemos: "localhost
 <img width="1854" height="860" alt="image" src="https://github.com/user-attachments/assets/1abb9ffa-285b-4849-8d69-a87fb930eb05" />
 
 (en la foto aparece que antes se llamaba ejercicio5 pero lo cambié a index.html para que se me abriera automaticamente ese)
+
+
+Ejemplo 2:
+
 
