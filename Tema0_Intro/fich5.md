@@ -1,5 +1,6 @@
 Actividad 0.5 - Práctica servidor web
 Visita los siguientes enlaces:
+
 Simple web server (ejemplo 1) https://docs.python.org/3/library/http.server.html
 python -m http.server 8000
 http server (ejemplo 2) https://github.com/freelamb/simple_http_server
