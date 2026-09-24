@@ -43,4 +43,9 @@ y nos vamos al directorio, y pasamos el index y la imagen al directorio usando c
 <img width="1357" height="624" alt="image" src="https://github.com/user-attachments/assets/435f78db-5212-4841-ad6e-3b2dd47a9474" />
 
 
+Ejemplo 3: Nos vamos al enlace que está en el enunciado, copiamos el código, nos vamos a cmd, ponemos python y luego copiamos el código, damos a enter y vemos como funciona:
+
+<img width="1012" height="412" alt="image" src="https://github.com/user-attachments/assets/3da0c94d-6123-4402-a2f6-1a6ba33a435a" />
+
+
 
