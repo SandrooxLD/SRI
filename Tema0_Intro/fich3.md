@@ -1,6 +1,9 @@
 Actividad 0.3 - Práctica telnet/http
+
 https://www.youtube.com/watch?v=xpBpGC08f4Q&t=189s
+
 http://www.profesordeinformatica.com/servicios/http/telnet
+
 Lee el artículo y prueba los ejemplos sugeridos en él.
 
 Nota: Si usamos Windows 10, tenemos que activar “telnet”
