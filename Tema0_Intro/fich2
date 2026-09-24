@@ -1,3 +1,6 @@
+Actividad 0.2 - UDP and TCP: Comparison of Transport Protocols
+https://www.youtube.com/watch?v=Vdc8TCESIg8
+
 Act 1:
 Diferencias entre udp y tcp? (min 2:46 y 4:15)
 Una de las primeras diferencias es que UDP tiene una detección de errores basada en una verificación de 16 bits, aunque es poco confiable, ya que si detecta un segmento corrupto posiblemente lo descarte y lo que se pierde, pues se pierde y no le llega al usuario.
