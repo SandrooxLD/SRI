@@ -19,10 +19,12 @@ echo Hola
 _Este texto está en italica_
 
 
-| Titulo 1 | Titulo 2 |
+| Ejercicio | Descripción |
 |---------------------|----------------------|
 | [fichero1](/Tema0_Intro/fich1)   | Contenido celda 2 |
 | Contenido columna 1 |  Contenido columna 2 |
-
+| Contenido columna 2 |  Contenido columna 3 |
+| Contenido columna 1 |  Contenido columna 2 |
+| Contenido columna 2 |  Contenido columna 3 |
 
 
