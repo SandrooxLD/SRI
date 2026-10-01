@@ -29,11 +29,15 @@ Ahora nos  metemos al navegador y ponemos "http://10.4.0.99" (la IP) y veremos q
 Ahora instalamos mysql-server, cuando pongamos el comand, nos pedirá confirmación, le daremos a Y
 <img width="692" height="165" alt="image" src="https://github.com/user-attachments/assets/a96a3712-3243-4fcc-9c85-3f41ef03fb95" />
 
-Ahora 
+Ahora ponemos el comando para hacer la instalación segura, ahora, empezará a hacernos preguntas, y pondremos a todo que sí, menos la segunda pregunta que te pide la validación de complejidad de contraseñas, pondremos 0 que es la más baja
 <img width="1153" height="759" alt="image" src="https://github.com/user-attachments/assets/6af510d4-dd3a-4612-be3b-b33bfeae71e6" />
 
+Aquí hay más preguntas:
+<img width="959" height="553" alt="image" src="https://github.com/user-attachments/assets/4ab837b7-1b53-4a9f-8369-9f44e193df1c" />
 
 
+Ahora para comprobar que funciona:
+<img width="874" height="264" alt="image" src="https://github.com/user-attachments/assets/e3f80982-f7f2-4d96-b5a0-442c9c68ea62" />
 
 
 
