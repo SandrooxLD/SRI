@@ -21,7 +21,7 @@ Vemos que el adaptador es "ens18"
 Y ahora vemos que si funciona y que podemos ver la IP pública
 <img width="735" height="108" alt="image" src="https://github.com/user-attachments/assets/41d25eaa-e4ae-4c4e-9ada-a382713b2e23" />
 
-Ahora nos  metemos al navegador y ponemos 2http://10.4.0.992 (la IP) y veremos que funcione
+Ahora nos  metemos al navegador y ponemos "http://10.4.0.99" (la IP) y veremos que funcione
 
 <img width="1117" height="735" alt="image" src="https://github.com/user-attachments/assets/69a07a7f-ffaa-4500-97ed-bc96befdb988" />
 
