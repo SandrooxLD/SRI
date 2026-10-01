@@ -38,8 +38,12 @@ Aquí hay más preguntas:
 
 Ahora para comprobar que funciona:
 <img width="874" height="264" alt="image" src="https://github.com/user-attachments/assets/e3f80982-f7f2-4d96-b5a0-442c9c68ea62" />
+Para salir ponemos exit
 
+AHORA INSTALAMOS PHP ...
+<img width="1174" height="330" alt="image" src="https://github.com/user-attachments/assets/1985b57c-4b4a-4ff5-a279-fc9b536053be" />
 
-
+Ahora comprobamos que se haya instalado bien:
+<img width="772" height="101" alt="image" src="https://github.com/user-attachments/assets/1f511599-a5a5-4f1e-abb4-8ab89adefd88" />
 
 
