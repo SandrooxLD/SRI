@@ -93,7 +93,7 @@ $ php -v
 
 <img width="772" height="101" alt="image" src="https://github.com/user-attachments/assets/1f511599-a5a5-4f1e-abb4-8ab89adefd88" />
 
-## apartado 4
+## Creación de Host Virtual
 
 Ahora hacemos un directorio llamado your_domain
 ```
