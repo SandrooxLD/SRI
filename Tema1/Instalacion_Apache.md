@@ -26,6 +26,16 @@ Ahora nos  metemos al navegador y ponemos "http://10.4.0.99" (la IP) y veremos q
 <img width="1117" height="735" alt="image" src="https://github.com/user-attachments/assets/69a07a7f-ffaa-4500-97ed-bc96befdb988" />
 
 
+Ahora instalamos mysql-server, cuando pongamos el comand, nos pedirá confirmación, le daremos a Y
+<img width="692" height="165" alt="image" src="https://github.com/user-attachments/assets/a96a3712-3243-4fcc-9c85-3f41ef03fb95" />
+
+Ahora 
+<img width="1153" height="759" alt="image" src="https://github.com/user-attachments/assets/6af510d4-dd3a-4612-be3b-b33bfeae71e6" />
+
+
+
+
+
 
 
 
