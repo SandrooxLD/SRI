@@ -1,10 +1,7 @@
-```
+# Instalación de la pila Linux
 
-```
+Primero instalamos el Ubuntu completamente
 
-Primero instalamos el Ubuntu
-
-...
 
 Ahora nos vamos al sistema, actualizamos el firewall
 ```
@@ -12,6 +9,7 @@ $ sudo apt update
 ```
 <img width="714" height="150" alt="image" src="https://github.com/user-attachments/assets/323fca96-1f4f-4b47-87e4-2a2dd7ae1067" />
 
+## Apache:
 E instalamos Apache:
 ```
 $ sudo apt install apache2
@@ -35,12 +33,14 @@ Y ahora vemos que si funciona y que podemos ver la IP pública
 ```
 ip addr show eth0 | grep inet | awk '{ print $2; }' | sed 's/\/.*$//'
 ```
+
 <img width="735" height="108" alt="image" src="https://github.com/user-attachments/assets/41d25eaa-e4ae-4c4e-9ada-a382713b2e23" />
 
 Ahora nos  metemos al navegador y ponemos "http://10.4.0.99" (la IP) y veremos que funcione
 
 <img width="1117" height="735" alt="image" src="https://github.com/user-attachments/assets/69a07a7f-ffaa-4500-97ed-bc96befdb988" />
 
+## MYSQL:
 
 Ahora instalamos mysql-server, cuando pongamos el comando, nos pedirá confirmación, le daremos a Y
 ```
@@ -67,8 +67,8 @@ Para salir ponemos exit
 ```
 mysql> exit
 ```
-
-AHORA INSTALAMOS PHP ...
+## PHP:
+Ahora instalamos PHP, ponemos el siguiente comando para que se empiece a instalar
 ```
 $ sudo apt install php libapache2-mod-php php-mysql
 ```
