@@ -115,7 +115,7 @@ $ ls -l /var/www
 
 Ahora hacemos un nano
 ```
-sudo nano /etc/apache2/sites-available/your_domain.conf
+$ sudo nano /etc/apache2/sites-available/your_domain.conf
 ```
 
 <img width="965" height="27" alt="image" src="https://github.com/user-attachments/assets/d14d7a99-3e29-448a-b1c6-7e7e48a9d9ba" />
@@ -126,6 +126,43 @@ Y le ponemos la configuración básica:
 
 <img width="1160" height="282" alt="image" src="https://github.com/user-attachments/assets/bb382e25-50c9-4890-bd75-1bcf76ecbe5e" />
 
+
+Ahora se puede usar el comando a2ensite para habilitar el nuevo host virtual:
+```
+$ sudo a2ensite your_domain
+```
+<img width="704" height="84" alt="image" src="https://github.com/user-attachments/assets/0a390634-9b76-4cea-b66e-bced7406d442" />
+
+Ahora lo podemos deshabilitar con a2dissite
+
+```
+$ sudo a2dissite 000-default
+```
+<img width="677" height="40" alt="image" src="https://github.com/user-attachments/assets/9914f890-45fa-480b-8860-d35889c19f28" />
+
+Pero si queremos activar la nueva configuración cuando lo habilites o deshabilites hay que poner lo siguiente:
+
+Primero nos aseguramos de que el archivo de configuración no contenga errores de sintaxis:
+
+```
+$ 
+sudo apache2ctl configtest
+```
+Y segundo lo recargamos para que los cambios puedan surtir efecto:
+
+```
+$ sudo systemctl reload apache2
+```
+Ahora que el nuevo sitio web está activo, pero el directorio root web /var/www/your_domain todavía está vacío, por lo que hay que crear un archivo index.html en la ubicación para poder probar que el host virtual funcione:
+```
+$ nano /var/www/your_domain/index.html
+```
+
+<img width="779" height="326" alt="image" src="https://github.com/user-attachments/assets/74b3b1d9-7ad1-4adb-ba40-d03083937dd3" />
+
+Ahora por últimos nos vamos al navegador, y en la pestaña donde antes pusimos la dirección IP ahora recargamos la página y veremos como se ve el index.html:
+
+<img width="544" height="244" alt="image" src="https://github.com/user-attachments/assets/86e81f39-ea78-49d2-8706-54fc748245ce" />
 
 
 
