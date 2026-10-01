@@ -63,6 +63,7 @@ Ahora para comprobar que funciona:
 $ sudo mysql
 ```
 <img width="874" height="264" alt="image" src="https://github.com/user-attachments/assets/e3f80982-f7f2-4d96-b5a0-442c9c68ea62" />
+
 Para salir ponemos exit
 ```
 mysql> exit
