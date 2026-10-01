@@ -93,4 +93,41 @@ $ php -v
 
 <img width="772" height="101" alt="image" src="https://github.com/user-attachments/assets/1f511599-a5a5-4f1e-abb4-8ab89adefd88" />
 
+## apartado 4
+
+Ahora hacemos un directorio llamado your_domain
+```
+$ sudo mkdir /var/www/your_domain
+```
+
+<img width="744" height="40" alt="image" src="https://github.com/user-attachments/assets/24f30408-d112-4a9a-b53a-acad4d2c0d4b" />
+
+Le ponemos que el owner sea $USER ($USER es el usuario actual)
+```
+$ sudo chown -R $USER:$USER /var/www/your_domain
+```
+y lo comprobamos
+```
+$ ls -l /var/www
+```
+
+<img width="882" height="97" alt="image" src="https://github.com/user-attachments/assets/9a963de1-2f04-4f84-9e16-30e66d711180" />
+
+Ahora hacemos un nano
+```
+sudo nano /etc/apache2/sites-available/your_domain.conf
+```
+
+<img width="965" height="27" alt="image" src="https://github.com/user-attachments/assets/d14d7a99-3e29-448a-b1c6-7e7e48a9d9ba" />
+
+
+
+Y le ponemos la configuración básica:
+
+<img width="1160" height="282" alt="image" src="https://github.com/user-attachments/assets/bb382e25-50c9-4890-bd75-1bcf76ecbe5e" />
+
+
+
+
+
 
