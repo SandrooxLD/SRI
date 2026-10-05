@@ -162,9 +162,28 @@ $ nano /var/www/your_domain/index.html
 
 Ahora por últimos nos vamos al navegador, y en la pestaña donde antes pusimos la dirección IP ahora recargamos la página y veremos como se ve el index.html:
 
-<img width="544" height="244" alt="image" src="https://github.com/user-attachments/assets/86e81f39-ea78-49d2-8706-54fc748245ce" />
+
+Ahora cambiamos el orden del index.php e index.html, primero nos metemos y luego lo probamos
+
+<img width="738" height="222" alt="image" src="https://github.com/user-attachments/assets/555618b6-2a89-4879-b14e-4e2a53f35b71" />
+
+Y ahora volveremos a cargar Apache para que los cambios surtan efecto:
+
+<img width="709" height="29" alt="image" src="https://github.com/user-attachments/assets/f81fa985-74b0-46e0-a01c-641f10ea5cc7" />
 
 
+## Ahora vamos a probar el procesamiento de PHP en su servidor web:
 
+Primero crearemos un archivo nuevo llamado info.php dentro de su carpeta root web personalizada:
+
+<img width="733" height="97" alt="image" src="https://github.com/user-attachments/assets/2dd41354-a18f-4899-8d5e-1c3597082230" />
+
+Ahora nos vamos al navegador para probar la secuencia de comando accediendo a la dirección IP del dominio
+
+<img width="1132" height="315" alt="image" src="https://github.com/user-attachments/assets/0f0b6500-e82c-45b2-ba80-e5737bd1aa3b" />
+
+Ahora hay que borrar el php:
+
+<img width="737" height="42" alt="image" src="https://github.com/user-attachments/assets/ccc59673-0fc7-4819-89a1-ce16d0c42fd3" />
 
 
