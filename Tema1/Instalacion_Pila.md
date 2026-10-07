@@ -201,7 +201,7 @@ Y ahora el creamos un usuario y su contraseña:
 
 <img width="787" height="43" alt="image" src="https://github.com/user-attachments/assets/ab235c33-8c83-4161-ad54-155812ae79bf" />
 
-y procederemos a darle todos los permisos
+Y procederemos a darle todos los permisos
 
 <img width="428" height="53" alt="image" src="https://github.com/user-attachments/assets/3e4758c3-b4fb-4108-8438-7cf6db84d377" />
 
@@ -238,10 +238,10 @@ En mi caso he puesto:
 ```
 http://localhost/todo_list.php
 ```
-Y una vez nos metemos veremos que todo funciona correctamente
 
 <img width="715" height="330" alt="image" src="https://github.com/user-attachments/assets/3aed9574-03b4-4c8f-bf23-86c91bd51cb9" />
 
+Y una vez nos metemos veremos que todo funciona correctamente.
 
 
 
