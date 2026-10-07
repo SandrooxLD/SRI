@@ -221,13 +221,24 @@ Ahora vemos si los datos se han guardado correctamente en la tabla y una vez con
 
 <img width="538" height="247" alt="image" src="https://github.com/user-attachments/assets/e8ed85f1-fd5a-40ac-b38c-8c6218fe09fc" />
 
-Ahora hacemos un nano:
+Ahora hacemos un nano para crear un archivo php:
+```
+$ nano /var/www/your_domain/todo_list.php
+```
 
 <img width="784" height="348" alt="image" src="https://github.com/user-attachments/assets/297338ff-8f83-4380-ba91-7dab7cfe1aa1" />
 
-Ahora hacemos 
+Importante, tenemos que poner los datos que hemos puesto anteriormente, yo en mi caso en vez de poner de usuario "example_user" puse "sandro", la contraseña puse "Usuario1_" y la base de datos puse "Redes", así que ahora cuando pongamos el user, la password y la database tenemos que poner esos datos o no nos funcionará, aquí el como lo he hecho: 
+
 <img width="786" height="484" alt="image" src="https://github.com/user-attachments/assets/54a6ed9e-d52b-440a-a623-f0c58adf91ac" />
 
+Y ahora deberemos acceder a esta página en el navegador web al visitar el nombre de dominio o la dirección IP pública de su sitio web seguido de /todo_list.php
+
+En mi caso he puesto:
+```
+http://localhost/todo_list.php
+```
+Y una vez nos metemos veremos que todo funciona correctamente
 
 <img width="715" height="330" alt="image" src="https://github.com/user-attachments/assets/3aed9574-03b4-4c8f-bf23-86c91bd51cb9" />
 
