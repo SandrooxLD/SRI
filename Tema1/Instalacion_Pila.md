@@ -193,19 +193,19 @@ Primero, establecemos una conexión con la consola de MySQL usando la cuenta roo
 
 <img width="728" height="240" alt="image" src="https://github.com/user-attachments/assets/63f09e3e-2cd3-480a-bd00-bb6b86cee82b" />
 
-base de datos:
+Ahora creamos la Base de datos:
 
 <img width="423" height="57" alt="image" src="https://github.com/user-attachments/assets/9ed8eaab-7027-490f-a387-383d88985d95" />
 
-Creamos un usuario:
+Y ahora el creamos un usuario y su contraseña:
 
 <img width="787" height="43" alt="image" src="https://github.com/user-attachments/assets/ab235c33-8c83-4161-ad54-155812ae79bf" />
 
-Le damos permisos
+y procederemos a darle todos los permisos
 
 <img width="428" height="53" alt="image" src="https://github.com/user-attachments/assets/3e4758c3-b4fb-4108-8438-7cf6db84d377" />
 
-Nos vamos de sql:
+A continuación nos vamos de sql:
 
 <img width="433" height="63" alt="image" src="https://github.com/user-attachments/assets/7c51c2f8-6d8e-470b-9712-a2b51c23dc93" />
 
@@ -213,11 +213,11 @@ Ahora nos metemos desde el usuario y le damos a ver todas las base de datos
 
 <img width="731" height="399" alt="image" src="https://github.com/user-attachments/assets/19538cf6-1774-47a8-96c3-74b8127e9c33" />
 
-Ahora hacemos 2 cosas, creamos los campos y a content le metemos cosas
+Ahora hacemos 2 cosas, primero creamos una tabla, le creamos unos campos y ahora le insertamos algunas filas al campo content
 
 <img width="767" height="372" alt="image" src="https://github.com/user-attachments/assets/935dccae-3af7-4506-b3ca-d00df601baa2" />
 
-Ahora vemos si se ha creado el content y salimos
+Ahora vemos si los datos se han guardado correctamente en la tabla y una vez confirmado que hay datos válidos, nos saldremos de la consola de MySQL:
 
 <img width="538" height="247" alt="image" src="https://github.com/user-attachments/assets/e8ed85f1-fd5a-40ac-b38c-8c6218fe09fc" />
 
