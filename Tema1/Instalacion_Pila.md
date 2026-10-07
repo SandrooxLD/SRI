@@ -187,3 +187,29 @@ Ahora hay que borrar el php:
 <img width="737" height="42" alt="image" src="https://github.com/user-attachments/assets/ccc59673-0fc7-4819-89a1-ce16d0c42fd3" />
 
 
+## Ahora vamos a probar la conexión con la base de datos desde PHP
+
+Primero, establecemos una conexión con la consola de MySQL usando la cuenta root:
+
+<img width="728" height="240" alt="image" src="https://github.com/user-attachments/assets/63f09e3e-2cd3-480a-bd00-bb6b86cee82b" />
+
+base de datos:
+
+<img width="423" height="57" alt="image" src="https://github.com/user-attachments/assets/9ed8eaab-7027-490f-a387-383d88985d95" />
+
+Creamos un usuario:
+
+<img width="787" height="43" alt="image" src="https://github.com/user-attachments/assets/ab235c33-8c83-4161-ad54-155812ae79bf" />
+
+Le damos permisos
+
+<img width="428" height="53" alt="image" src="https://github.com/user-attachments/assets/3e4758c3-b4fb-4108-8438-7cf6db84d377" />
+
+Nos vamos de sql:
+
+<img width="433" height="63" alt="image" src="https://github.com/user-attachments/assets/7c51c2f8-6d8e-470b-9712-a2b51c23dc93" />
+
+Ahora nos metemos desde el usuario y le damos a ver todas las base de datos
+
+<img width="731" height="399" alt="image" src="https://github.com/user-attachments/assets/19538cf6-1774-47a8-96c3-74b8127e9c33" />
+
