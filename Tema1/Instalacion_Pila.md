@@ -213,3 +213,19 @@ Ahora nos metemos desde el usuario y le damos a ver todas las base de datos
 
 <img width="731" height="399" alt="image" src="https://github.com/user-attachments/assets/19538cf6-1774-47a8-96c3-74b8127e9c33" />
 
+Ahora hacemos 2 cosas, creamos los campos y a content le metemos cosas
+
+<img width="767" height="372" alt="image" src="https://github.com/user-attachments/assets/935dccae-3af7-4506-b3ca-d00df601baa2" />
+
+Ahora vemos si se ha creado el content y salimos
+
+<img width="538" height="247" alt="image" src="https://github.com/user-attachments/assets/e8ed85f1-fd5a-40ac-b38c-8c6218fe09fc" />
+
+Ahora hacemos un nano:
+
+<img width="784" height="348" alt="image" src="https://github.com/user-attachments/assets/297338ff-8f83-4380-ba91-7dab7cfe1aa1" />
+
+
+
+
+
