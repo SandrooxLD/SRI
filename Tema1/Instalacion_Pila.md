@@ -225,6 +225,14 @@ Ahora hacemos un nano:
 
 <img width="784" height="348" alt="image" src="https://github.com/user-attachments/assets/297338ff-8f83-4380-ba91-7dab7cfe1aa1" />
 
+Ahora hacemos 
+<img width="786" height="484" alt="image" src="https://github.com/user-attachments/assets/54a6ed9e-d52b-440a-a623-f0c58adf91ac" />
+
+
+<img width="715" height="330" alt="image" src="https://github.com/user-attachments/assets/3aed9574-03b4-4c8f-bf23-86c91bd51cb9" />
+
+
+
 
 
 
