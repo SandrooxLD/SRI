@@ -15,24 +15,45 @@ Si tienes problemas con Apache consulta el siguiente enlace:
 
 https://docs.bluehosting.cl/troubleshooting/servidores/guia-de-solucion-de-problemas-comunes-de-apache.html
 
+
+### Act 1:
+
 1. Apache utilizará el puerto 81 además del 80
+
+### Act 2:
 
 2. Añadir el dominio “marisma.intranet” en el fichero “hosts”
 	
+### Act 3:
+
 3. Cambia la directiva “ServerTokens” para mostrar el nombre del producto.
-	
+
+### Act 4:
+
 4. Comprueba si se visualiza el pie de página en las páginas generadas por Apache (por ejemplo, en las páginas de error). Cambia el valor de la directiva “ServerSignature” y comprueba que funciona correctamente. 
-	
+
+### Act 5:
+
 5. Crea un directorio “prueba” y otro directorio “prueba2”. Incluye un par de páginas en cada una de ellas.
-	
+
+### Act 6:
+
 6. Redirecciona el contenido de la carpeta “prueba” hacia “prueba2”
-	
+
+### Act 7:
+
 7. Es posible redireccionar tan solo una página en lugar de toda la carpeta. Pruébalo.
-	
+
+### Act 8:
+
 8. Usa la directiva userdir
-	
+
+### Act 9:
+
 9. Usa la directiva alias para redireccionar a una carpeta dentro del directorio de usuario.
-	
+
+### Act 10:
+
 10. ¿Para qué sirve la directiva Options y dónde aparece. Comprueba si apache indexa los directorios. Si es así, ¿cómo lo desactivamos?
 Nota: Para ver la respuesta http podemos usar cURL
 https://curl.haxx.se/docs/httpscripting.html
