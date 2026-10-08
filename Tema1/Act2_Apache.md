@@ -14,7 +14,7 @@ http://wiki.apache.org/httpd/DistrosDefaultLayout#Win32_.28Apache_httpd_2.2.29
 Si tienes problemas con Apache consulta el siguiente enlace:
 
 https://docs.bluehosting.cl/troubleshooting/servidores/guia-de-solucion-de-problemas-comunes-de-apache.html
-
+<br> 
 
 ### Act 1:
 
