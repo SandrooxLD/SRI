@@ -38,11 +38,11 @@ Ahora nos salimos de /apache2, nos vamos a etc y nos metemos a "hosts", añadimo
 	
 ### Act 3:
 
-3. Cambia la directiva “ServerTokens” para mostrar el nombre del producto.
+Cambia la directiva “ServerTokens” para mostrar el nombre del producto.
 
-Para hacer esto nos vamos a /apache2/apache2.conf
+Para hacer esto nos vamos a /apache2/apache2.conf, nos vamos al final del fichero de configuración y añadimos la siguiente línea:
 
-
+<img width="733" height="478" alt="image" src="https://github.com/user-attachments/assets/f971cf40-cc49-4154-adb4-2034b9677b88" />
 
 
 ### Act 4:
