@@ -18,19 +18,38 @@ https://docs.bluehosting.cl/troubleshooting/servidores/guia-de-solucion-de-probl
 
 ### Act 1:
 
-1. Apache utilizará el puerto 81 además del 80
+Apache utilizará el puerto 81 además del 80
+
+Primero hacemos cd a /etc/apache2/, luego nos vamos a ports.conf y escribimos Listen 81
+
+<img width="675" height="406" alt="image" src="https://github.com/user-attachments/assets/027c142e-8165-4cf8-bf1a-1f122c0c0f5e" />
+
+
 
 ### Act 2:
 
-2. Añadir el dominio “marisma.intranet” en el fichero “hosts”
+Añadir el dominio “marisma.intranet” en el fichero “hosts”
+
+Ahora nos salimos de /apache2, nos vamos a etc y nos metemos a "hosts"
+
+<img width="603" height="241" alt="image" src="https://github.com/user-attachments/assets/53cc5751-3dcc-42dd-9374-590d7734365b" />
+
 	
 ### Act 3:
 
 3. Cambia la directiva “ServerTokens” para mostrar el nombre del producto.
 
+Para hacer esto nos vamos a /apache2/apache2.conf
+
+
+
+
 ### Act 4:
 
 4. Comprueba si se visualiza el pie de página en las páginas generadas por Apache (por ejemplo, en las páginas de error). Cambia el valor de la directiva “ServerSignature” y comprueba que funciona correctamente. 
+
+
+
 
 ### Act 5:
 
