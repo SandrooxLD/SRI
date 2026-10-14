@@ -42,7 +42,7 @@ Cambia la directiva “ServerTokens” para mostrar el nombre del producto.
 
 Para hacer esto nos vamos a /apache2/apache2.conf, nos vamos al final del fichero de configuración y añadimos la siguiente línea:
 
-<img width="733" height="478" alt="image" src="https://github.com/user-attachments/assets/f971cf40-cc49-4154-adb4-2034b9677b88" />
+<img width="727" height="484" alt="image" src="https://github.com/user-attachments/assets/3a3fd07c-f285-4724-84dc-07d2f64f13e8" />
 
 
 ### Act 4:
@@ -56,21 +56,39 @@ Para hacer esto nos vamos a /apache2/apache2.conf, nos vamos al final del ficher
 
 5. Crea un directorio “prueba” y otro directorio “prueba2”. Incluye un par de páginas en cada una de ellas.
 
+Para hacer esto nos vamos a /var/www/html y hacemos 2 directorios, prueba y prueba2, hacemos entonces un index en prueba
+
+<img width="727" height="520" alt="image" src="https://github.com/user-attachments/assets/fb067beb-161c-440b-b688-33513d59a4d0" />
+
+A continuación deberemos hacer pag2.html en prueba e index.html y prueba2 en el directorio prueba2
+
+
+
+
 ### Act 6:
 
 6. Redirecciona el contenido de la carpeta “prueba” hacia “prueba2”
+
+
 
 ### Act 7:
 
 7. Es posible redireccionar tan solo una página en lugar de toda la carpeta. Pruébalo.
 
+
+
 ### Act 8:
 
 8. Usa la directiva userdir
 
+
+
+
 ### Act 9:
 
 9. Usa la directiva alias para redireccionar a una carpeta dentro del directorio de usuario.
+
+
 
 ### Act 10:
 
