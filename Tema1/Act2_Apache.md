@@ -30,9 +30,10 @@ Primero hacemos cd a /etc/apache2/, luego nos vamos a ports.conf y escribimos Li
 
 Añadir el dominio “marisma.intranet” en el fichero “hosts”
 
-Ahora nos salimos de /apache2, nos vamos a etc y nos metemos a "hosts"
+Ahora nos salimos de /apache2, nos vamos a etc y nos metemos a "hosts", añadimos marisma.intranet a la dirección 127.0.0.1 y le hacemos un ping para confirmar que responde
 
-<img width="603" height="241" alt="image" src="https://github.com/user-attachments/assets/53cc5751-3dcc-42dd-9374-590d7734365b" />
+<img width="665" height="341" alt="image" src="https://github.com/user-attachments/assets/67d791c2-9a17-4aac-85ee-54dc9e467d67" />
+
 
 	
 ### Act 3:
