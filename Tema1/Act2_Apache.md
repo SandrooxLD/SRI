@@ -54,15 +54,24 @@ Para hacer esto nos vamos a /apache2/apache2.conf, nos vamos al final del ficher
 
 ### Act 5:
 
-5. Crea un directorio “prueba” y otro directorio “prueba2”. Incluye un par de páginas en cada una de ellas.
+Crea un directorio “prueba” y otro directorio “prueba2”. Incluye un par de páginas en cada una de ellas.
 
 Para hacer esto nos vamos a /var/www/html y hacemos 2 directorios, prueba y prueba2, hacemos entonces un index en prueba
 
 <img width="727" height="520" alt="image" src="https://github.com/user-attachments/assets/fb067beb-161c-440b-b688-33513d59a4d0" />
 
-A continuación deberemos hacer pag2.html en prueba e index.html y prueba2 en el directorio prueba2
+A continuación deberemos hacer pag2.html en prueba e index.html y prueba2 en el directorio prueba2:
 
+Pag 2 de prueba:
 
+<img width="731" height="217" alt="image" src="https://github.com/user-attachments/assets/043097b8-4f6b-4f9d-9d66-3493083fa91b" />
+
+Ahora el index de prueba 2:
+<img width="728" height="376" alt="image" src="https://github.com/user-attachments/assets/56273683-209e-4dfa-ae05-9d7cc316a348" />
+
+Y ahora la pag2 de prueba2:
+
+<img width="730" height="202" alt="image" src="https://github.com/user-attachments/assets/9b97629b-fe7a-47a2-a516-e357649b8d6a" />
 
 
 ### Act 6:
