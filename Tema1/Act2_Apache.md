@@ -67,6 +67,7 @@ Pag 2 de prueba:
 <img width="731" height="217" alt="image" src="https://github.com/user-attachments/assets/043097b8-4f6b-4f9d-9d66-3493083fa91b" />
 
 Ahora el index de prueba 2:
+
 <img width="728" height="376" alt="image" src="https://github.com/user-attachments/assets/56273683-209e-4dfa-ae05-9d7cc316a348" />
 
 Y ahora la pag2 de prueba2:
