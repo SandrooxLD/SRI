@@ -49,6 +49,16 @@ Para hacer esto nos vamos a /apache2/apache2.conf, nos vamos al final del ficher
 
 4. Comprueba si se visualiza el pie de página en las páginas generadas por Apache (por ejemplo, en las páginas de error). Cambia el valor de la directiva “ServerSignature” y comprueba que funciona correctamente. 
 
+Primero grep:
+
+<img width="740" height="79" alt="image" src="https://github.com/user-attachments/assets/803a55c4-d5f9-40bd-884d-97be64a79e03" />
+
+Ahora ponemos el serversignature
+
+<img width="874" height="479" alt="image" src="https://github.com/user-attachments/assets/dc9ed18b-e503-418d-bc55-d59a6bc90edb" />
+
+pa comprobar
+sudo apachectl ...
 
 
 
@@ -60,7 +70,7 @@ Para hacer esto nos vamos a /var/www/html y hacemos 2 directorios, prueba y prue
 
 <img width="727" height="520" alt="image" src="https://github.com/user-attachments/assets/fb067beb-161c-440b-b688-33513d59a4d0" />
 
-A continuación deberemos hacer pag2.html en prueba e index.html y prueba2 en el directorio prueba2:
+A continuación deberemos hacer index2.html en prueba e index.html y index2.html  en el directorio prueba2:
 
 Pag 2 de prueba:
 
