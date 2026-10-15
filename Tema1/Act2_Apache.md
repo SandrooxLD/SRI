@@ -57,45 +57,65 @@ Ahora ponemos el serversignature
 
 <img width="874" height="479" alt="image" src="https://github.com/user-attachments/assets/dc9ed18b-e503-418d-bc55-d59a6bc90edb" />
 
-pa comprobar
-sudo apachectl ...
-
-
-
 ### Act 5:
 
 Crea un directorio “prueba” y otro directorio “prueba2”. Incluye un par de páginas en cada una de ellas.
 
 Para hacer esto nos vamos a /var/www/html y hacemos 2 directorios, prueba y prueba2, hacemos entonces un index en prueba
 
-<img width="727" height="520" alt="image" src="https://github.com/user-attachments/assets/fb067beb-161c-440b-b688-33513d59a4d0" />
+<img width="803" height="355" alt="image" src="https://github.com/user-attachments/assets/e0f1b6a1-409d-4c10-bb9b-36a89e6c78b7" />
 
-A continuación deberemos hacer index2.html en prueba e index.html y index2.html  en el directorio prueba2:
+A continuación deberemos hacer index2.html en prueba e index.html y index2.html en el directorio prueba2, yo hago solo el primer index de cada directorio y luego hago un copy
 
-Pag 2 de prueba:
+index2.html de prueba:
 
-<img width="731" height="217" alt="image" src="https://github.com/user-attachments/assets/043097b8-4f6b-4f9d-9d66-3493083fa91b" />
+<img width="771" height="347" alt="image" src="https://github.com/user-attachments/assets/58e1ddb9-0bd2-42aa-a618-e4e64b3e0ac4" />
 
-Ahora el index de prueba 2:
 
-<img width="728" height="376" alt="image" src="https://github.com/user-attachments/assets/56273683-209e-4dfa-ae05-9d7cc316a348" />
+Ahora el index.html de prueba 2:
 
-Y ahora la pag2 de prueba2:
+<img width="827" height="357" alt="image" src="https://github.com/user-attachments/assets/a30b0a91-f2e5-4af4-8ac0-349bb2bf7eb4" />
 
-<img width="730" height="202" alt="image" src="https://github.com/user-attachments/assets/9b97629b-fe7a-47a2-a516-e357649b8d6a" />
+
+Y ahora la index2.html de prueba2:
+
+<img width="753" height="361" alt="image" src="https://github.com/user-attachments/assets/665ba20c-8c4c-4447-8230-a20769e0801c" />
+
 
 
 ### Act 6:
 
-6. Redirecciona el contenido de la carpeta “prueba” hacia “prueba2”
+Redirecciona el contenido de la carpeta “prueba” hacia “prueba2”
 
+Nos vamos a apache2.conf y añadimos la siguiente línea:
 
+<img width="864" height="468" alt="image" src="https://github.com/user-attachments/assets/95968fe3-4dc0-486a-b715-b8b79e7fc54a" />
+
+Aquí he puesto localhost/prueba/index2.html y me ha mandado a localhost/prueba2/index2.html
+
+<img width="681" height="184" alt="image" src="https://github.com/user-attachments/assets/e5ade46a-09f6-43d2-a82a-e15a31bab27e" />
 
 ### Act 7:
 
 7. Es posible redireccionar tan solo una página en lugar de toda la carpeta. Pruébalo.
 
+Ahora para hacer esto tenemos que irnos otra vez a apache2.conf y en vez de tener /prueba y /prueba2 , ponemos el index que queremos redireccionar:
 
+<img width="864" height="478" alt="image" src="https://github.com/user-attachments/assets/f3123832-a240-4a6b-a1c5-70dc9c3791d2" />
+
+Lo probamos y vemos que redirecciona la pagina de prueba2:
+
+<img width="675" height="239" alt="image" src="https://github.com/user-attachments/assets/00b3680a-2013-4907-bdb8-72cc3f3bef4c" />
+
+Recuerda haer el reload y el restart para que funcione:
+
+```
+sudo sytemctl reload apache2
+```
+
+```
+sudo sytemctl restart apache2
+```
 
 ### Act 8:
 
