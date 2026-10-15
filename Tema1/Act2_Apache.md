@@ -107,7 +107,7 @@ Lo probamos y vemos que redirecciona la pagina de prueba2:
 
 <img width="675" height="239" alt="image" src="https://github.com/user-attachments/assets/00b3680a-2013-4907-bdb8-72cc3f3bef4c" />
 
-Recuerda haer el reload y el restart para que funcione:
+Recuerda hacer el reload y el restart para que funcione:
 
 ```
 sudo sytemctl reload apache2
@@ -121,7 +121,26 @@ sudo sytemctl restart apache2
 
 8. Usa la directiva userdir
 
+1 Para hacer esto primero activamos el userdir escribiendo "sudo a2enmod userdir":
 
+Ahora tenemos que reiniciar el servicio de apache2:
+
+```
+$ service apache2 restart / $ systemctl restart apache2
+```
+
+<img width="666" height="116" alt="image" src="https://github.com/user-attachments/assets/8f686bb2-7b71-4d61-87a4-a61c0142add9" />
+
+
+2 Ahora creamos el directorio con: mkdir /home/usuario/public_html
+
+
+3 Y ahora nos hacemos un index.html con este comando: nano /home/usuario/public_html/index.html
+(le ponemos un doctype html, html, head, title=Page title, meta charset="UTF-8", body, h1 /~usuario/index.html, p Esta es la pagina de inicio del directorio /home/usuario
+
+4 sudo apachectl configtest
+5 service apache2 restart
+6 chmod 755 /home/usuario
 
 
 ### Act 9:
