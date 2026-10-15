@@ -131,14 +131,23 @@ $ service apache2 restart / $ systemctl restart apache2
 
 <img width="666" height="116" alt="image" src="https://github.com/user-attachments/assets/8f686bb2-7b71-4d61-87a4-a61c0142add9" />
 
-
 2 Ahora creamos el directorio con: mkdir /home/usuario/public_html
 
+<img width="703" height="24" alt="image" src="https://github.com/user-attachments/assets/0237c1d6-d493-4b1c-88e6-878ea1dab3bb" />
 
-3 Y ahora nos hacemos un index.html con este comando: nano /home/usuario/public_html/index.html
-(le ponemos un doctype html, html, head, title=Page title, meta charset="UTF-8", body, h1 /~usuario/index.html, p Esta es la pagina de inicio del directorio /home/usuario
+Añado que el directorio usuario es el de tu usuario, si se llama diferente, le pones el nombre que es, en mi caso le puse sandro.
 
-4 sudo apachectl configtest
+3 Y ahora nos hacemos un index.html en el directorio que acabamos de crear con un nano /home/usuario/public_html/index.html:
+
+<img width="873" height="477" alt="image" src="https://github.com/user-attachments/assets/993b4d14-356a-49a0-9e5c-425f007f5a9d" />
+<img width="862" height="74" alt="image" src="https://github.com/user-attachments/assets/f3485d8e-b2f4-497e-915d-d0123c317185" />
+
+4 Ahora para ver si está bien hacemos un sudo apachectl configtest
+
+<img width="862" height="74" alt="image" src="https://github.com/user-attachments/assets/ffa8af50-d424-4922-9df8-a1ef9a7f8cc2" />
+
+
+
 5 service apache2 restart
 6 chmod 755 /home/usuario
 
