@@ -47,7 +47,7 @@ Para hacer esto nos vamos a /apache2/apache2.conf, nos vamos al final del ficher
 
 ### Act 4:
 
-4. Comprueba si se visualiza el pie de página en las páginas generadas por Apache (por ejemplo, en las páginas de error). Cambia el valor de la directiva “ServerSignature” y comprueba que funciona correctamente. 
+Comprueba si se visualiza el pie de página en las páginas generadas por Apache (por ejemplo, en las páginas de error). Cambia el valor de la directiva “ServerSignature” y comprueba que funciona correctamente. 
 
 Primero grep:
 
@@ -56,6 +56,10 @@ Primero grep:
 Ahora ponemos el serversignature
 
 <img width="874" height="479" alt="image" src="https://github.com/user-attachments/assets/dc9ed18b-e503-418d-bc55-d59a6bc90edb" />
+
+Ahora probamos a ver si funciona metiéndonos a una pagina que no existe para que nos dé error
+
+<img width="620" height="222" alt="image" src="https://github.com/user-attachments/assets/efe58d3f-a295-41ca-891e-fec5c45f2d56" />
 
 ### Act 5:
 
@@ -81,8 +85,6 @@ Y ahora la index2.html de prueba2:
 
 <img width="753" height="361" alt="image" src="https://github.com/user-attachments/assets/665ba20c-8c4c-4447-8230-a20769e0801c" />
 
-
-
 ### Act 6:
 
 Redirecciona el contenido de la carpeta “prueba” hacia “prueba2”
@@ -97,15 +99,16 @@ Aquí he puesto localhost/prueba/index2.html y me ha mandado a localhost/prueba2
 
 ### Act 7:
 
-7. Es posible redireccionar tan solo una página en lugar de toda la carpeta. Pruébalo.
+Es posible redireccionar tan solo una página en lugar de toda la carpeta. Pruébalo.
 
 Ahora para hacer esto tenemos que irnos otra vez a apache2.conf y en vez de tener /prueba y /prueba2 , ponemos el index que queremos redireccionar:
 
 <img width="864" height="478" alt="image" src="https://github.com/user-attachments/assets/f3123832-a240-4a6b-a1c5-70dc9c3791d2" />
 
-Lo probamos y vemos que redirecciona la pagina de prueba2:
+Lo probamos y vemos que redirecciona la pagina de prueba2: (funciona ya que el index2.html no te redirecciona mientras que la otra si)
 
-<img width="675" height="239" alt="image" src="https://github.com/user-attachments/assets/00b3680a-2013-4907-bdb8-72cc3f3bef4c" />
+<img width="734" height="227" alt="image" src="https://github.com/user-attachments/assets/06956728-dfbc-4b33-83cc-37001b70f98f" />
+
 
 Recuerda hacer el reload y el restart para que funcione:
 
@@ -121,7 +124,7 @@ sudo sytemctl restart apache2
 
 8. Usa la directiva userdir
 
-1 Para hacer esto primero activamos el userdir escribiendo "sudo a2enmod userdir":
+Paso 1: Para hacer esto primero activamos el userdir escribiendo "sudo a2enmod userdir":
 
 Ahora tenemos que reiniciar el servicio de apache2:
 
@@ -131,25 +134,27 @@ $ service apache2 restart / $ systemctl restart apache2
 
 <img width="666" height="116" alt="image" src="https://github.com/user-attachments/assets/8f686bb2-7b71-4d61-87a4-a61c0142add9" />
 
-2 Ahora creamos el directorio con: mkdir /home/usuario/public_html
+Paso 2: Ahora creamos el directorio con: mkdir /home/usuario/public_html
 
 <img width="703" height="24" alt="image" src="https://github.com/user-attachments/assets/0237c1d6-d493-4b1c-88e6-878ea1dab3bb" />
 
 Añado que el directorio usuario es el de tu usuario, si se llama diferente, le pones el nombre que es, en mi caso le puse sandro.
 
-3 Y ahora nos hacemos un index.html en el directorio que acabamos de crear con un nano /home/usuario/public_html/index.html:
+Paso 3: Y ahora nos hacemos un index.html en el directorio que acabamos de crear con un nano /home/usuario/public_html/index.html:
 
 <img width="873" height="477" alt="image" src="https://github.com/user-attachments/assets/993b4d14-356a-49a0-9e5c-425f007f5a9d" />
-<img width="862" height="74" alt="image" src="https://github.com/user-attachments/assets/f3485d8e-b2f4-497e-915d-d0123c317185" />
 
-4 Ahora para ver si está bien hacemos un sudo apachectl configtest
+Paso 4: Ahora para ver si está bien hacemos un sudo apachectl configtest
 
 <img width="862" height="74" alt="image" src="https://github.com/user-attachments/assets/ffa8af50-d424-4922-9df8-a1ef9a7f8cc2" />
 
+Paso 5: Procedemos a reinicar el servicio con un service apache2 restart
+
+<img width="691" height="22" alt="image" src="https://github.com/user-attachments/assets/c3d6fc08-0107-4537-b3c7-f408693849b6" />
+
+Paso 6: Ahora tenemos que darle permisos para poder meternos con el comando de chmod 755 /home/usuario
 
 
-5 service apache2 restart
-6 chmod 755 /home/usuario
 
 
 ### Act 9:
