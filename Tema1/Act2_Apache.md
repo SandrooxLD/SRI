@@ -161,6 +161,18 @@ Paso 6: Ahora tenemos que darle permisos para poder meternos con el comando de c
 
 9. Usa la directiva alias para redireccionar a una carpeta dentro del directorio de usuario.
 
+Buscar en el doc apache2 el alias
+1. sudo nano /etc/apache2/apache2.conf
+2. añadimos al
+   alias /image /home/usuario/image
+   <Directory> "/home/usuario/image"
+		Require all granted
+   </Directory>
+3. Creamos el directorio
+   mkdir /home/usuario/image
+4. Añadimos ficheros en el escritorio
+5. Reiniciar apache
+6. comprobar que funciona
 
 
 ### Act 10:
