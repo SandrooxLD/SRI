@@ -1,5 +1,5 @@
 
-# Actividad #2.1
+# Actividad #2.1 NO SE Q PONER EN EL 8º PASO 6
 
 ## Pon en marcha el servidor Apache y lleva a cabo los siguientes cambios en el archivo de configuración.
 
@@ -154,6 +154,8 @@ Paso 5: Procedemos a reinicar el servicio con un service apache2 restart
 
 Paso 6: Ahora tenemos que darle permisos para poder meternos con el comando de chmod 755 /home/usuario
 
+<img width="632" height="20" alt="image" src="https://github.com/user-attachments/assets/b5adbde3-b038-495b-b545-e92ddbf32fb6" />
+
 
 
 
@@ -163,15 +165,36 @@ Paso 6: Ahora tenemos que darle permisos para poder meternos con el comando de c
 
 Buscar en el doc apache2 el alias
 1. sudo nano /etc/apache2/apache2.conf
-2. añadimos al
-   alias /image /home/usuario/image
-   <Directory> "/home/usuario/image"
+y encima hago un grep
+
+<img width="883" height="62" alt="image" src="https://github.com/user-attachments/assets/3c47c628-94d1-429f-8ad3-9ecedf419c13" />
+
+<img width="953" height="61" alt="image" src="https://github.com/user-attachments/assets/8fb9e73f-d292-4031-87da-53135c4df3e7" />
+
+
+2. añadimos al apache2.conf
+   Alias "/image" "/home/usuario/image"
+   <Directory "/home/usuario/image">
 		Require all granted
    </Directory>
+
+<img width="877" height="425" alt="image" src="https://github.com/user-attachments/assets/e925bf6f-91a0-44b4-8938-d0eb2f367e86" />
+
+
+   
 3. Creamos el directorio
    mkdir /home/usuario/image
-4. Añadimos ficheros en el escritorio
+
+<img width="695" height="116" alt="image" src="https://github.com/user-attachments/assets/afaf00e3-8352-4344-b1a2-6b24c37e1955" />
+
+4. Añadimos ficheros en el escritorio y los probamos con cat
+
+<img width="906" height="92" alt="image" src="https://github.com/user-attachments/assets/1a92e4a5-f2db-4c6b-a207-411b393d8d16" />
+
+
 5. Reiniciar apache
+
+
 6. comprobar que funciona
 
 
