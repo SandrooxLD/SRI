@@ -175,31 +175,33 @@ después:
 <img width="860" height="57" alt="image" src="https://github.com/user-attachments/assets/3cb6dc70-3da1-4f5a-8112-5eee7e3f1d1c" />
 
 
-2. Paso: Añadimos al apache2.conf el Alias, para hacer esto en el conf tendremos que poner el siguiente texto:
+2. Paso: Añadimos al apache2.conf el Alias, para hacer esto en el conf tendremos que poner el siguiente texto: (Recuerda que pongo usuario pero en mi caso usuario no es el mío, mi nombre de usuario es "sandro", tienes que poner el tuyo o el nombre que tengas en el directorio)
 
    Alias "/image" "/home/usuario/image"
    <Directory "/home/usuario/image">
 		Require all granted
    </Directory>
 
-<img width="860" height="57" alt="image" src="https://github.com/user-attachments/assets/096ec63c-2a76-4eca-854c-7520b4de6d94" />
-
-
+<img width="1030" height="422" alt="image" src="https://github.com/user-attachments/assets/e1670ca0-a69b-49a3-bcc5-666ac4d59b8d" />
    
-3. Creamos el directorio
-   mkdir /home/usuario/image
+3. Paso: Ahora creamos el directorio con un mkdir "mkdir /home/usuario/image", en mi caso "mkdir /home/sandro/image"
 
 <img width="695" height="116" alt="image" src="https://github.com/user-attachments/assets/afaf00e3-8352-4344-b1a2-6b24c37e1955" />
 
-4. Añadimos ficheros en el escritorio y los probamos con cat
+También sirve sin poner el ls con nada:
+
+<img width="981" height="45" alt="image" src="https://github.com/user-attachments/assets/c2fc3e9a-acf3-4ea9-9a8a-c6a7da0b3c65" />
+
+4. Paso: A continuación añadimos ficheros en el directorio de image y los probamos con cat
 
 <img width="906" height="92" alt="image" src="https://github.com/user-attachments/assets/1a92e4a5-f2db-4c6b-a207-411b393d8d16" />
 
+5. Paso: Deberemos reiniciar apache ahora:
 
-5. Reiniciar apache
+<img width="747" height="26" alt="image" src="https://github.com/user-attachments/assets/76b83aee-a7b3-429b-821a-8d25e24678c0" />
 
 
-6. comprobar que funciona
+6. Paso: Y por último debemos comprobar que funciona:
 
 
 ### Act 10:
