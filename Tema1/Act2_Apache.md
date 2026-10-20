@@ -163,22 +163,26 @@ Paso 6: Ahora tenemos que darle permisos para poder meternos con el comando de c
 
 9. Usa la directiva alias para redireccionar a una carpeta dentro del directorio de usuario.
 
-Buscar en el doc apache2 el alias
-1. sudo nano /etc/apache2/apache2.conf
-y encima hago un grep
+Vamos a hacer esto por pasos:
+1. Paso: Hacemos un "sudo nano /etc/apache2/apache2.conf" para irnos al archivo.conf y le hacemos un grep para ver si tiene alias, voy a hacer un antes y un después (el después es a continuación de los siguientes pasos)
 
-<img width="883" height="62" alt="image" src="https://github.com/user-attachments/assets/3c47c628-94d1-429f-8ad3-9ecedf419c13" />
+antes:
 
 <img width="953" height="61" alt="image" src="https://github.com/user-attachments/assets/8fb9e73f-d292-4031-87da-53135c4df3e7" />
 
+después:
 
-2. añadimos al apache2.conf
+<img width="860" height="57" alt="image" src="https://github.com/user-attachments/assets/3cb6dc70-3da1-4f5a-8112-5eee7e3f1d1c" />
+
+
+2. Paso: Añadimos al apache2.conf el Alias, para hacer esto en el conf tendremos que poner el siguiente texto:
+
    Alias "/image" "/home/usuario/image"
    <Directory "/home/usuario/image">
 		Require all granted
    </Directory>
 
-<img width="877" height="425" alt="image" src="https://github.com/user-attachments/assets/e925bf6f-91a0-44b4-8938-d0eb2f367e86" />
+<img width="860" height="57" alt="image" src="https://github.com/user-attachments/assets/096ec63c-2a76-4eca-854c-7520b4de6d94" />
 
 
    
