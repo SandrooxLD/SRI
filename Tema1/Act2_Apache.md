@@ -216,8 +216,37 @@ https://www.rosehosting.com/blog/curl-command-examples/
 Nota: Si tienes que instalar un módulo en Apache utiliza a2enmod
 sudo a2enmod userdir
 
+La directiva options controla que servicios del servidor están disponibles en un directorio en particular
 
+Está en apache2.conf
 
+<img width="878" height="481" alt="image" src="https://github.com/user-attachments/assets/f4cbb5ce-bdf7-44b8-84e2-b1cafa092507" />
+
+Nos metemos al directorio de html y le hacemos un fichero que no sea index.html
+
+<img width="711" height="77" alt="image" src="https://github.com/user-attachments/assets/7282039e-534a-4021-969d-e60c5c1e3339" />
+
+Ahora le cambiamos el nombre a index.html para que no nos salte
+
+<img width="833" height="170" alt="image" src="https://github.com/user-attachments/assets/7cb8943e-8568-4833-95eb-77243af543f9" />
+
+Ahora nos metemos a localhost y veremos que nos indexa
+
+<img width="454" height="372" alt="image" src="https://github.com/user-attachments/assets/44ace0aa-d8ad-4af8-9cf9-29b1f141e9e3" />
+
+Para desactivar el indexado deberemos añadir a Indexes un - y a FollowSymLinks un + en el apache2.conf:
+
+<img width="377" height="123" alt="image" src="https://github.com/user-attachments/assets/023fa16c-f752-4e2a-bf1f-e61035f08f44" />
+
+Hacemos un sudo systemctl restart apache2
+
+Y si ahora lo buscamos nos sale un forbidden:
+
+<img width="463" height="255" alt="image" src="https://github.com/user-attachments/assets/ae95e2e2-c815-4567-b530-881f3d758b75" />
+
+Y si escribimos localhost/Cambio.html veremos que nos manda a la página de Apache2
+
+<img width="1035" height="757" alt="image" src="https://github.com/user-attachments/assets/ca51c4a4-9cbd-4474-83e3-085197cbb2ac" />
 
 
 ## Actividad #2.2
