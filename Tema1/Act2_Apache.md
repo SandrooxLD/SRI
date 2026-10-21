@@ -1,5 +1,5 @@
 
-# Actividad #2.1 NO SE Q PONER EN EL 8º PASO 6
+# Actividad #2.1
 
 ## Pon en marcha el servidor Apache y lleva a cabo los siguientes cambios en el archivo de configuración.
 
@@ -122,7 +122,7 @@ sudo sytemctl restart apache2
 
 ### Act 8:
 
-8. Usa la directiva userdir
+Usa la directiva userdir
 
 Paso 1: Para hacer esto primero activamos el userdir escribiendo "sudo a2enmod userdir":
 
@@ -156,12 +156,9 @@ Paso 6: Ahora tenemos que darle permisos para poder meternos con el comando de c
 
 <img width="632" height="20" alt="image" src="https://github.com/user-attachments/assets/b5adbde3-b038-495b-b545-e92ddbf32fb6" />
 
-
-
-
 ### Act 9:
 
-9. Usa la directiva alias para redireccionar a una carpeta dentro del directorio de usuario.
+Usa la directiva alias para redireccionar a una carpeta dentro del directorio de usuario.
 
 Vamos a hacer esto por pasos:
 1. Paso: Hacemos un "sudo nano /etc/apache2/apache2.conf" para irnos al archivo.conf y le hacemos un grep para ver si tiene alias, voy a hacer un antes y un después (el después es a continuación de los siguientes pasos)
@@ -196,13 +193,19 @@ También sirve sin poner el ls con nada:
 
 <img width="906" height="92" alt="image" src="https://github.com/user-attachments/assets/1a92e4a5-f2db-4c6b-a207-411b393d8d16" />
 
+Ojo, es importante hacer un index.html:
+
+<img width="817" height="96" alt="image" src="https://github.com/user-attachments/assets/6d2a4ad5-960f-4a2c-9239-40bfb1dec845" />
+
 5. Paso: Deberemos reiniciar apache ahora:
 
 <img width="747" height="26" alt="image" src="https://github.com/user-attachments/assets/76b83aee-a7b3-429b-821a-8d25e24678c0" />
 
-
 6. Paso: Y por último debemos comprobar que funciona:
 
+Ahora nos vamos al navegador y lo probamos:
+
+<img width="499" height="188" alt="image" src="https://github.com/user-attachments/assets/8b8f4bb6-37ef-47d9-9b86-d3086db7e499" />
 
 ### Act 10:
 
@@ -212,6 +215,8 @@ https://curl.haxx.se/docs/httpscripting.html
 https://www.rosehosting.com/blog/curl-command-examples/
 Nota: Si tienes que instalar un módulo en Apache utiliza a2enmod
 sudo a2enmod userdir
+
+
 
 
 
