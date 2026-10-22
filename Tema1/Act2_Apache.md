@@ -209,7 +209,7 @@ Ahora nos vamos al navegador y lo probamos:
 
 ### Act 10:
 
-10. ¿Para qué sirve la directiva Options y dónde aparece. Comprueba si apache indexa los directorios. Si es así, ¿cómo lo desactivamos?
+¿Para qué sirve la directiva Options y dónde aparece. Comprueba si apache indexa los directorios. Si es así, ¿cómo lo desactivamos?
 Nota: Para ver la respuesta http podemos usar cURL
 https://curl.haxx.se/docs/httpscripting.html
 https://www.rosehosting.com/blog/curl-command-examples/
@@ -249,26 +249,41 @@ Y si escribimos localhost/Cambio.html veremos que nos manda a la página de Apac
 <img width="1035" height="757" alt="image" src="https://github.com/user-attachments/assets/ca51c4a4-9cbd-4474-83e3-085197cbb2ac" />
 
 
-## Actividad #2.2
-
+# Actividad #2.2
 
 Los scripts deben comprobar previamente el número de parámetros y en el caso de no pasar los parámetros necesarios nos mostrará un error indicando la sintaxis correcta.
 
 Se aconseja leer previamente alguno de los siguientes enlaces sobre shell script
-https://github.com/denysdovhan/bash-handbook
-https://www.shellscript.sh/
-http://www.freeos.com/guides/lsst/index.html
-Dos comandos que te pueden ser de utilidad son:
-grep
-https://geekland.eu/uso-del-comando-grep-en-linux-y-unix-con-ejemplos/
-sed
-https://geekland.eu/uso-del-comando-sed-en-linux-y-unix-con-ejemplos/
 
+https://github.com/denysdovhan/bash-handbook
+
+https://www.shellscript.sh/
+
+http://www.freeos.com/guides/lsst/index.html
+
+Dos comandos que te pueden ser de utilidad son 
+
+grep: https://geekland.eu/uso-del-comando-grep-en-linux-y-unix-con-ejemplos/
+
+sed: https://geekland.eu/uso-del-comando-sed-en-linux-y-unix-con-ejemplos/
 
 Trabajando con scripts  (Debes publicarlos en Github)
-Crea un script para cada uno de los siguientes problemas
+
+
+## Crea un script para cada uno de los siguientes problemas
+
+### Act 1:
 Crea un script que añada un puerto de escucha en el fichero de configuración de Apache. El puerto se recibirá como parámetro en la llamada y se comprobará que no esté ya presente en el fichero de configuración.
+
+
+.sh 
+echo Listen ...
+
+
+### Act 2:
 Crea un script que añada un nombre de dominio y una ip al fichero hosts. Debemos comprobar que no existe dicho dominio en el fichero hosts
+
+### Act 3:
 Crea un script que nos permita crear una página web con un título, una cabecera y un mensaje
 
 
