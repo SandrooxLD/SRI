@@ -275,6 +275,19 @@ Trabajando con scripts  (Debes publicarlos en Github)
 ### Act 1:
 Crea un script que añada un puerto de escucha en el fichero de configuración de Apache. El puerto se recibirá como parámetro en la llamada y se comprobará que no esté ya presente en el fichero de configuración.
 
+Primeramente nos vamos al directorio /etc/apache2 y hacemos un sudo nano de puerto.sh
+
+<img width="714" height="304" alt="image" src="https://github.com/user-attachments/assets/c9d84cdc-4ed5-4236-a2c0-623b9e218fa5" />
+
+Ahora ponemos el código:
+
+<img width="731" height="483" alt="image" src="https://github.com/user-attachments/assets/3f074434-1f2e-424e-92c4-05b8ede869c6" />
+
+Ahora añadimos un puerto con sudo ./puerto.sh 82
+
+
+
+Y lo probamos en el navegador poniendo localhost:82
 
 .sh 
 echo Listen ...
@@ -282,6 +295,9 @@ echo Listen ...
 
 ### Act 2:
 Crea un script que añada un nombre de dominio y una ip al fichero hosts. Debemos comprobar que no existe dicho dominio en el fichero hosts
+
+
+
 
 ### Act 3:
 Crea un script que nos permita crear una página web con un título, una cabecera y un mensaje
