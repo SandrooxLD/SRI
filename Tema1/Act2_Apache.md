@@ -283,15 +283,13 @@ Ahora ponemos el código:
 
 <img width="731" height="483" alt="image" src="https://github.com/user-attachments/assets/3f074434-1f2e-424e-92c4-05b8ede869c6" />
 
-Ahora añadimos un puerto con sudo ./puerto.sh 82
+Ahora añadimos un puerto con sudo bash ./puerto.sh 82, luego hacemos un cat y vemos que el Listen se ha añadido:
 
-
+<img width="746" height="473" alt="image" src="https://github.com/user-attachments/assets/8fd302bd-adb2-499a-89b7-96936b009c9f" />
 
 Y lo probamos en el navegador poniendo localhost:82
 
-.sh 
-echo Listen ...
-
+<img width="1203" height="777" alt="image" src="https://github.com/user-attachments/assets/73344337-d353-4768-914f-c12954e06da5" />
 
 ### Act 2:
 Crea un script que añada un nombre de dominio y una ip al fichero hosts. Debemos comprobar que no existe dicho dominio en el fichero hosts
