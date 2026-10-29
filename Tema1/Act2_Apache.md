@@ -294,12 +294,59 @@ Y lo probamos en el navegador poniendo localhost:82
 ### Act 2:
 Crea un script que añada un nombre de dominio y una ip al fichero hosts. Debemos comprobar que no existe dicho dominio en el fichero hosts
 
+Primero creamos el script:
 
+<img width="748" height="383" alt="image" src="https://github.com/user-attachments/assets/0aa99094-24fd-4c02-bbd7-474bdb21c77a" />
+
+Ahora damos permisos de escritura:
+
+<img width="767" height="22" alt="image" src="https://github.com/user-attachments/assets/55489e04-b618-46d9-9cd0-1caeda3e519b" />
+
+Ahora ejecutamos el shell y ponemos por ejemplo: "192.168.1.100 maestrosubemenota.ejemplo"
+
+<img width="1083" height="153" alt="image" src="https://github.com/user-attachments/assets/87bba359-d09e-4ba9-9a9e-03c9ac0ece92" />
+
+Y lo probamos con un cat en hosts para ver si se ha añadido:
+
+<img width="571" height="229" alt="image" src="https://github.com/user-attachments/assets/45c2e377-270e-4d04-92ee-903368464dc5" />
+
+Y podemos probar esto haciendo un ping al dominio recién añadido:
+
+<img width="877" height="106" alt="image" src="https://github.com/user-attachments/assets/af13139b-53d7-424d-bdff-a52b4ef3cc90" />
+
+Por último podemos comprobar que no se admiten duplicados poniendo el mismo nombre de dominio:
+
+<img width="1063" height="272" alt="image" src="https://github.com/user-attachments/assets/47c5a3b5-9edc-400c-9726-5730efef758b" />
 
 
 ### Act 3:
 Crea un script que nos permita crear una página web con un título, una cabecera y un mensaje
 
+Primero hacemos el script:
 
+<img width="918" height="454" alt="image" src="https://github.com/user-attachments/assets/98f0f9b5-ffa6-4378-9803-b2643fd685be" />
 
+Le damos permiso como a los sripts anteriores:
+
+<img width="763" height="33" alt="image" src="https://github.com/user-attachments/assets/6465eabe-4ada-4752-8e22-673bbf9bed9a" />
+
+Ahora ejecutamos el shell y ponemos lo que queremos de la pagina web:
+
+<img width="1099" height="92" alt="image" src="https://github.com/user-attachments/assets/fa06ef76-9802-492c-9e44-0f78a179e260" />
+
+Para probarlo podemos hacer un cat:
+
+<img width="1093" height="239" alt="image" src="https://github.com/user-attachments/assets/fb9d84d7-274c-410f-a25f-87852fba0f6c" />
+
+También podemos probarlo en el navegador, pero para hacer esto primero le he cambiado el nombre (porque ya tengo un html que se llama igual, le he cambiado el nombre con un mv):
+
+<img width="791" height="21" alt="image" src="https://github.com/user-attachments/assets/32c90f59-7bcb-43c2-b11f-04d2a34b9da2" />
+
+Luego uso el mv para cambiarlo al directorio de "/var/www/html":
+
+<img width="856" height="29" alt="image" src="https://github.com/user-attachments/assets/374e1fe5-c74c-4ac8-8f37-41bcc42ee9b0" />
+
+A continuación nos vamos al navegador y lo probamos:
+
+<img width="1210" height="347" alt="image" src="https://github.com/user-attachments/assets/7482af60-b451-412e-b213-fc1f9c9f3a42" />
 
