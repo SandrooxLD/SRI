@@ -81,20 +81,59 @@ Allow from 10.3.0.100
 Require ip 10.3.0.100
 
 b) Permite el acceso desde "marisma.intranet"
+Allow from marisma.intranet  
+// equivalente a 
+Require host marisma.intranet
 
 c) Permite el acceso desde cualquier subdominio de "marisma.intranet"
+	Allow from .marisma.intranet  
+// equivalente a 
+Require host .marisma.intranet
 
 d) Permite el acceso de las peticiones provenientes de "10.3.0.100" con máscara "255.255.0.0"
+Allow from 10.3.0.100/255.255.0.0  
+// equivalente a 
+Require ip 10.3.0.100/255.255.0.0
 
 ### Act 4:
 
 Modifica la configuración de forma que el acceso a dir1:
 
 a) Se permita a "marisma.intranet" y no se permita desde 10.3.0.101"
+<Directory /var/www/html/dir1>
+	Allow from marisma.intranet
+	Deny from 10.3.0.101
+</Directory>
+
+// esto es equivalente a esto otro
+
+<Directory /var/www/html/dir1>
+	<RequireAll>
+	Require host marisma.intranet
+		Require not ip 10.3.0.101
+	</RequireAll>
+</Directory>
 
 ### Act 5:
 
 Modifica la configuración de forma que el acceso a dir2:
 
 a) Se permita a "10.3.0.100/8" y no a "marisma.intranet"
+
+	Allow from 10.3.0.101/8  equivalente a Require ip 10.3.0.101/8
+	Deny from marisma.intranet  equivalente a Require not host marisma.intranet
+
+<Directory /var/www/html/dir2>
+	Allow from 10.3.0.101/8
+	Deny from marisma.intranet
+</Directory>
+
+// esto es equivalente a esto otro
+
+<Directory /var/www/html/dir2>
+	<RequireAll>
+	Require ip 10.3.0.101/8
+		Require not host marisma.intranet
+	</RequireAll>
+</Directory>
 
