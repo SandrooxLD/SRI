@@ -74,6 +74,12 @@ Para dir1
 
 a) Permite el acceso de las peticiones provenientes de 10.3.0.100
 
+Allow from 10.3.0.100 
+
+// Es equivalente a 
+
+Require ip 10.3.0.100
+
 b) Permite el acceso desde "marisma.intranet"
 
 c) Permite el acceso desde cualquier subdominio de "marisma.intranet"
