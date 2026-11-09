@@ -74,21 +74,23 @@ Para dir1
 
 a) Permite el acceso de las peticiones provenientes de 10.3.0.100
 
-Allow from 10.3.0.100 
+Para hacer esto nos vamos al archivo de configuración de apache y ponemos lo siguiente:
 
-// Es equivalente a 
+<img width="726" height="362" alt="image" src="https://github.com/user-attachments/assets/6691d415-1f36-4598-b1e8-9c81fc6744fa" />
 
-Require ip 10.3.0.100
+Ahora todo lo demás lo vamos añadiendo al apartado de Directory
 
 b) Permite el acceso desde "marisma.intranet"
-Allow from marisma.intranet  
-// equivalente a 
-Require host marisma.intranet
+
+Añadimos Require host marisma.intranet
+
+<img width="332" height="79" alt="image" src="https://github.com/user-attachments/assets/fdad3c52-8372-4a32-9d07-b2aaa4c845f8" />
 
 c) Permite el acceso desde cualquier subdominio de "marisma.intranet"
-	Allow from .marisma.intranet  
-// equivalente a 
-Require host .marisma.intranet
+
+Ahora en el marisma.intranet le añadimos un punto antes de marisma
+
+<img width="329" height="90" alt="image" src="https://github.com/user-attachments/assets/032091b8-aa08-4909-a78b-d008dd4d1bbc" />
 
 d) Permite el acceso de las peticiones provenientes de "10.3.0.100" con máscara "255.255.0.0"
 Allow from 10.3.0.100/255.255.0.0  
