@@ -110,6 +110,8 @@ Ahora para hacer esto vamos a modificar el apache2.conf y modificamos el directo
 
 <img width="381" height="122" alt="image" src="https://github.com/user-attachments/assets/dfd30fff-8267-4fe0-bd09-857413a5bc6f" />
 
+Modificación:
+
 ```
 <Directory /var/www/dir1>
     <RequireAll>
@@ -127,10 +129,11 @@ Modifica la configuración de forma que el acceso a dir2:
 
 a) Se permita a "10.3.0.100/8" y no a "marisma.intranet"
 
-Para hacer esto podemos copiar y pegar el anterior ejercicio, cambiar el dir1 por dir2, y modificar el Require not ip ... por Require ip 10.3.0.100/8 y el Require host marisma.intranet le añadimos el not 
+Para hacer esto podemos copiar y pegar el anterior ejercicio, cambiar el dir1 por dir2, y modificar el Require not ip ... por Require ip 10.3.0.101/8 y el Require host marisma.intranet le añadimos el not 
 
-<img width="393" height="122" alt="image" src="https://github.com/user-attachments/assets/9b809fea-fc30-4960-8122-4507abb8d6cb" />
+<img width="406" height="121" alt="image" src="https://github.com/user-attachments/assets/5dcf044d-dd30-4d39-8f79-461e91671af7" />
 
+Modificación:
 
 ```
 <Directory /var/www/html/dir2>
