@@ -88,14 +88,15 @@ Añadimos Require host marisma.intranet
 
 c) Permite el acceso desde cualquier subdominio de "marisma.intranet"
 
-Ahora en el marisma.intranet le añadimos un punto antes de marisma
+Ahora añadimos otro marisma.intranet peor a este le añadimos un punto antes de marisma
 
-<img width="329" height="90" alt="image" src="https://github.com/user-attachments/assets/032091b8-aa08-4909-a78b-d008dd4d1bbc" />
+<img width="351" height="108" alt="image" src="https://github.com/user-attachments/assets/5e0892c9-aa16-4fba-82da-fbcbfe358495" />
 
 d) Permite el acceso de las peticiones provenientes de "10.3.0.100" con máscara "255.255.0.0"
-Allow from 10.3.0.100/255.255.0.0  
-// equivalente a 
-Require ip 10.3.0.100/255.255.0.0
+
+Ahora para hacer esto añadimos la máscara en el Require ip "10.3.0.100", ponemos / y la máscara que nos pide
+
+<img width="426" height="106" alt="image" src="https://github.com/user-attachments/assets/d5edc6e6-d95e-4710-b053-4eae87c32386" />
 
 ### Act 4:
 
