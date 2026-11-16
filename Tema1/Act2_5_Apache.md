@@ -135,8 +135,8 @@ Para hacer esto podemos copiar y pegar el anterior ejercicio, cambiar el dir1 po
 ```
 <Directory /var/www/html/dir2>
 	<RequireAll>
-		Require ip 10.3.0.101/8
-		Require not host marisma.intranet
+        Require ip 10.3.0.101/8
+        Require not host marisma.intranet
 	</RequireAll>
 </Directory>
 ```
