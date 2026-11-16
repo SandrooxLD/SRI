@@ -114,7 +114,7 @@ Ahora para hacer esto vamos a modificar el apache2.conf y modificamos el directo
 <Directory /var/www/dir1>
     <RequireAll>
         Require host marisma.intranet
-        Require not ip 10.3.0.101
+			Require not ip 10.3.0.101
     </RequireAll>
 </Directory>
 ```
@@ -135,8 +135,8 @@ Para hacer esto podemos copiar y pegar el anterior ejercicio, cambiar el dir1 po
 ```
 <Directory /var/www/html/dir2>
 	<RequireAll>
-	Require ip 10.3.0.101/8
-		Require not host marisma.intranet
+		Require ip 10.3.0.101/8
+			Require not host marisma.intranet
 	</RequireAll>
 </Directory>
 ```
