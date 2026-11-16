@@ -98,24 +98,28 @@ Ahora para hacer esto añadimos la máscara en el Require ip "10.3.0.100", ponem
 
 <img width="426" height="106" alt="image" src="https://github.com/user-attachments/assets/d5edc6e6-d95e-4710-b053-4eae87c32386" />
 
+ALGO IMPORTANTE QUE DESTACAR, en las fotos aparece <Directory /var/www/dir1> pero en realidad es <Directory /var/www/html/dir1>, en el Act 4 ya aparecen las fotos con el directory dentro de html, ha sido un pequeño error de las fotos
+
 ### Act 4:
 
 Modifica la configuración de forma que el acceso a dir1:
 
 a) Se permita a "marisma.intranet" y no se permita desde 10.3.0.101"
-<Directory /var/www/html/dir1>
-	Allow from marisma.intranet
-	Deny from 10.3.0.101
-</Directory>
 
-// esto es equivalente a esto otro
+Ahora para hacer esto vamos a modificar el apache2.conf y modificamos el directorio de dir1, cambiaremos lo antes puesto por lo siguiente:
 
-<Directory /var/www/html/dir1>
-	<RequireAll>
-	Require host marisma.intranet
-		Require not ip 10.3.0.101
-	</RequireAll>
+<img width="381" height="122" alt="image" src="https://github.com/user-attachments/assets/dfd30fff-8267-4fe0-bd09-857413a5bc6f" />
+
+```
+<Directory /var/www/dir1>
+    <RequireAll>
+        Require host marisma.intranet
+        Require not ip 10.3.0.101
+    </RequireAll>
 </Directory>
+```
+
+Es importante poner el <RequireAll> para que ambos requisitos funcionen a la vez y se tengan que cumplir ambos
 
 ### Act 5:
 
@@ -123,20 +127,16 @@ Modifica la configuración de forma que el acceso a dir2:
 
 a) Se permita a "10.3.0.100/8" y no a "marisma.intranet"
 
-	Allow from 10.3.0.101/8  equivalente a Require ip 10.3.0.101/8
-	Deny from marisma.intranet  equivalente a Require not host marisma.intranet
+Para hacer esto podemos copiar y pegar el anterior ejercicio, cambiar el dir1 por dir2, y modificar el Require not ip ... por Require ip 10.3.0.100/8 y el Require host marisma.intranet le añadimos el not 
 
-<Directory /var/www/html/dir2>
-	Allow from 10.3.0.101/8
-	Deny from marisma.intranet
-</Directory>
+<img width="393" height="122" alt="image" src="https://github.com/user-attachments/assets/9b809fea-fc30-4960-8122-4507abb8d6cb" />
 
-// esto es equivalente a esto otro
 
+```
 <Directory /var/www/html/dir2>
 	<RequireAll>
 	Require ip 10.3.0.101/8
 		Require not host marisma.intranet
 	</RequireAll>
 </Directory>
-
+```
